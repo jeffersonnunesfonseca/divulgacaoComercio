@@ -26,3 +26,6 @@ scripts:
 - "dev": "node server/server.js", => EXECUTA O SERVIDOR
 - "build": "next build",          => COMPILA APP OTIMIZANDO PARA PROD.
 - "start": "node server/server.js start" => STARTA O COMPILADO
+
+Estilo para react
+npm install --save styled-components
