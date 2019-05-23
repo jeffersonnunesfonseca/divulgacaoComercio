@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import Header from "../components/header";
 import 'isomorphic-fetch';
 import styled from 'styled-components';
 // export default () => <h1>hello world</h1>;
@@ -49,7 +50,10 @@ const Home = ({nomeBairro}) =>(
     render(){
 
         return(
-            <Fragment><div >{this.props.nomeBairro.bairro}</div></Fragment>
+            <Fragment>
+                <Header>{this.props.nomeBairro.bairro}</Header>
+                <div>{this.props.nomeBairro.bairro}</div>
+            </Fragment>
         )
     }
 
